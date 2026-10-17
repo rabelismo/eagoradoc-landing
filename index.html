@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>E agora, doc? — Manuais de prática clínica para estudantes de Medicina</title>
+  <meta name="description" content="Manuais Integrais e Guias Rápidos de ECG, Trauma (xABCDE), Gasometria e Propedêutica para estudantes de Medicina que já estudaram a teoria e precisam levá-la à prática clínica.">
+  <meta name="theme-color" content="#0B3B3C">
+  <link rel="canonical" href="https://eagoradoc.netlify.app/">
+  <meta property="og:url" content="https://eagoradoc.netlify.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="E agora, doc?">
+  <meta property="og:title" content="Você aprendeu a teoria. E agora? — E agora, doc?">
+  <meta property="og:description" content="Manuais e guias rápidos de ECG, Trauma, Gasometria e Propedêutica para estudantes de Medicina.">
+  <meta property="og:image" content="https://eagoradoc.netlify.app/assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="E agora, doc? — capas dos quatro Manuais Integrais">
+  <meta name="twitter:image" content="https://eagoradoc.netlify.app/assets/img/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/img/capas/manual-ecg.jpg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>document.documentElement.classList.add("js")</script>
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <div class="config-banner" id="config-banner" role="status" hidden></div>
+
+  <!-- 1. CABEÇALHO -->
+  <header class="site-header" id="topo">
+    <div class="container header-inner">
+      <a class="brand" href="#topo" translate="no" aria-label="E agora, doc? — início">
+        <img src="assets/img/logo.png" alt="E agora, doc?" width="480" height="200">
+      </a>
+      <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#manuais">Manuais</a></li>
+          <li><a href="#guias">Guias rápidos</a></li>
+          <li><a href="#por-dentro">Por dentro</a></li>
+          <li><a href="#precos">Preços</a></li>
+          <li><a href="#faq">Dúvidas</a></li>
+        </ul>
+        <a class="btn btn-primary btn-sm nav-cta" href="#precos" data-checkout="colecao">Coleção completa</a>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav">
+        <span class="sr-only">Abrir menu</span>
+        <span class="bars" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- 2. HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" data-rise style="--i:0">Manuais de prática clínica · Edição 2026</p>
+          <h1 id="hero-title" data-rise style="--i:1">Você aprendeu a teoria.<br><span>E agora?</span></h1>
+          <p class="lead" data-rise style="--i:2">Manuais e guias rápidos de <strong>ECG, Trauma, Gasometria e Propedêutica</strong> para estudantes de Medicina que já estudaram o conteúdo e precisam aplicá-lo nas aulas práticas, no ciclo clínico e no internato.</p>
+          <div class="hero-ctas" data-rise style="--i:3">
+            <a class="btn btn-primary btn-lg" href="#precos" data-checkout="colecao">Quero a coleção completa</a>
+            <a class="btn btn-ghost btn-lg" href="#manuais">Conhecer os materiais</a>
+          </div>
+          <ul class="hero-facts" aria-label="Em números" data-rise style="--i:4">
+            <li><strong>4</strong> módulos</li>
+            <li><strong>8</strong> PDFs</li>
+            <li><strong>412</strong> páginas</li>
+          </ul>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="cover-stack">
+            <img class="c c4" src="assets/img/capas/manual-propedeutica.jpg" alt="" width="640" height="906">
+            <img class="c c3" src="assets/img/capas/manual-gasometria.jpg" alt="" width="640" height="906">
+            <img class="c c2" src="assets/img/capas/manual-trauma.jpg" alt="" width="640" height="906">
+            <img class="c c1" src="assets/img/capas/manual-ecg.jpg" alt="" width="640" height="906" fetchpriority="high">
+            <img class="c g1" src="assets/img/capas/guia-ecg.jpg" alt="" width="640" height="906">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. DIFICULDADES -->
+    <section class="section" id="dificuldades" aria-labelledby="dif-title">
+      <div class="container">
+        <header data-reveal class="section-head">
+          <p class="eyebrow">O problema nunca foi falta de estudo</p>
+          <h2 id="dif-title">Quatro situações em que todo estudante já travou</h2>
+          <p>O que trava não é o critério: é não saber por onde começar, nem o que olhar primeiro.</p>
+        </header>
+        <div data-reveal class="problem-grid">
+          <article class="problem-card">
+            <span class="tag">ECG</span>
+            <h3>“Eu sei a teoria. Mas saberia o que fazer quando ela aparece na minha frente?”</h3>
+            <p>As doze derivações parecem se embaralhar e o primeiro impulso é procurar o laudo automático.</p>
+            <p class="answer"><span>No manual</span>Onze passos de leitura, sempre na mesma ordem.</p>
+          </article>
+          <article class="problem-card">
+            <span class="tag">Trauma · xABCDE</span>
+            <h3>“Eu sei a sequência. Mas saberia o que fazer primeiro quando todos estão falando ao mesmo tempo?”</h3>
+            <p>Na sala de trauma, a sequência decorada some quando tudo acontece ao mesmo tempo.</p>
+            <p class="answer"><span>No manual</span>O xABCDE letra por letra, com base no ATLS 11ª edição (2025).</p>
+          </article>
+          <article class="problem-card">
+            <span class="tag">Gasometria</span>
+            <h3>“Eu sei as fórmulas. Mas saberia ler a gasometria que acabou de chegar?”</h3>
+            <p>Decorar fórmulas não diz o que o exame muda na conduta do paciente.</p>
+            <p class="answer"><span>No manual</span>Um método fixo em sete passos, do pH ao contexto clínico.</p>
+          </article>
+          <article class="problem-card">
+            <span class="tag">Raciocínio clínico</span>
+            <h3>“Saberia achar os problemas desse paciente e contar tudo ao preceptor em quatro minutos?”</h3>
+            <p>Conduzir a conversa, organizar os achados e apresentar o caso com clareza.</p>
+            <p class="answer"><span>No manual</span>Preparar, conversar, examinar, pensar, apresentar e registrar.</p>
+          </article>
+        </div>
+
+        <div data-reveal class="method">
+          <h3 class="method-title">Feito para ser usado, não só lido</h3>
+          <ol class="method-steps">
+            <li><span class="when">Semanas antes</span><strong>Estudar</strong><p>Capítulos em ordem, cada um respondendo a uma pergunta que você faria diante do paciente.</p></li>
+            <li><span class="when">Na véspera</span><strong>Revisar</strong><p>As aberturas “Em 30 segundos” e a seção “Se você só tiver 5 minutos”.</p></li>
+            <li><span class="when">Na hora</span><strong>Consultar</strong><p>Sumário clicável, fichas de bolso e checklist final.</p></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. MANUAIS INTEGRAIS -->
+    <section class="section section-tint" id="manuais" aria-labelledby="manuais-title">
+      <div class="container">
+        <header data-reveal class="section-head section-head-row">
+          <div>
+            <h2 id="manuais-title">O manual completo ensina</h2>
+            <p>Quatro Manuais Integrais, a R$&nbsp;29,90 cada, com método, traçados e exames reais, casos integradores e casos para revisão com gabarito.</p>
+          </div>
+          <div class="carousel-nav" data-carousel-nav="manuais-track">
+            <button class="icon-btn" data-dir="-1" aria-label="Manual anterior"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
+            <button class="icon-btn" data-dir="1" aria-label="Próximo manual"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
+          </div>
+        </header>
+
+        <div data-reveal class="carousel" id="manuais-track" role="region" tabindex="0" aria-label="Manuais Integrais (role para o lado)">
+          <article class="product-card">
+            <img class="cover" src="assets/img/capas/manual-ecg.jpg" alt="Capa do Manual Integral Módulo 01: Chegou um ECG. E agora?" width="640" height="906" loading="lazy">
+            <div class="product-body">
+              <h3>Chegou um ECG. E agora?</h3>
+              <p class="meta">Módulo 1 · 100 páginas</p>
+              <p class="desc">Manual prático de interpretação eletrocardiográfica, para quem já estudou a teoria e quer saber o que fazer quando o traçado chega às mãos.</p>
+              <ul class="checks">
+                <li>Os 11 passos de leitura, sempre na mesma ordem</li>
+                <li>Taquicardias, bradicardias, BAV e bloqueios</li>
+                <li>Supra de ST e oclusão sem supra</li>
+                <li>Potássio, medicamentos e o ECG que não vai para casa</li>
+              </ul>
+              <div class="product-foot">
+                <p class="price">R$&nbsp;29,90</p>
+                <div class="product-actions">
+                  <a class="btn btn-primary" href="#precos" data-checkout="manualEcg">Comprar manual</a>
+                  <button class="btn btn-link" data-open-sample="ecg-manual-p05">Ver sumário</button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img class="cover" src="assets/img/capas/manual-trauma.jpg" alt="Capa do Manual Integral Módulo 02: Chegou um trauma grave. E agora?" width="640" height="906" loading="lazy">
+            <div class="product-body">
+              <h3>Chegou um trauma grave. E agora?</h3>
+              <p class="meta">Módulo 2 · 87 páginas</p>
+              <p class="desc">O xABCDE na abordagem inicial do paciente gravemente traumatizado, para quem já estudou a sequência e quer saber o que fazer primeiro.</p>
+              <ul class="checks">
+                <li>xABCDE letra por letra</li>
+                <li>Hemorragia, tórax que mata e choque</li>
+                <li>Avaliação secundária e transferência</li>
+                <li>Criança, idoso, gestante e múltiplas vítimas</li>
+              </ul>
+              <p class="ref">Base: ATLS, 11ª edição (2025)</p>
+              <div class="product-foot">
+                <p class="price">R$&nbsp;29,90</p>
+                <div class="product-actions">
+                  <a class="btn btn-primary" href="#precos" data-checkout="manualTrauma">Comprar manual</a>
+                  <button class="btn btn-link" data-open-sample="trauma-manual-p05">Ver sumário</button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img class="cover" src="assets/img/capas/manual-gasometria.jpg" alt="Capa do Manual Integral Módulo 03: Chegou uma gasometria. E agora?" width="640" height="906" loading="lazy">
+            <div class="product-body">
+              <h3>Chegou uma gasometria. E agora?</h3>
+              <p class="meta">Módulo 3 · 88 páginas</p>
+              <p class="desc">Distúrbios ácido-base e oxigenação com um método fixo, para quem já decorou as fórmulas e quer saber o que o exame diz sobre o paciente.</p>
+              <ul class="checks">
+                <li>O método em sete passos</li>
+                <li>Compensação, ânion gap e distúrbios mistos</li>
+                <li>Hipoxemia e quanto oxigênio ofertar</li>
+                <li>Cetoacidose, sepse e lactato, intoxicações</li>
+              </ul>
+              <p class="ref">Diretrizes conferidas: SSC 2026, SBD, ILAS</p>
+              <div class="product-foot">
+                <p class="price">R$&nbsp;29,90</p>
+                <div class="product-actions">
+                  <a class="btn btn-primary" href="#precos" data-checkout="manualGasometria">Comprar manual</a>
+                  <button class="btn btn-link" data-open-sample="gasometria-manual-p05">Ver sumário</button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img class="cover" src="assets/img/capas/manual-propedeutica.jpg" alt="Capa do Manual Integral Módulo 04: Estou rodando na propedêutica. E agora?" width="640" height="906" loading="lazy">
+            <div class="product-body">
+              <h3>Estou rodando na propedêutica. E agora?</h3>
+              <p class="meta">Módulo 4 · 97 páginas</p>
+              <p class="desc">Anamnese, exame físico e apresentação do paciente ao preceptor, para quem já estudou semiologia e precisa usá-la à beira do leito.</p>
+              <ul class="checks">
+                <li>A anamnese conduzida, do início ao fim</li>
+                <li>Exame físico por sistemas e sinais vitais</li>
+                <li>Do achado ao problema: achar, agrupar, priorizar</li>
+                <li>Apresentar o caso, evoluir e passar adiante</li>
+              </ul>
+              <p class="ref">Referências conferidas: DBHA 2025, NEWS2, CEM</p>
+              <div class="product-foot">
+                <p class="price">R$&nbsp;29,90</p>
+                <div class="product-actions">
+                  <a class="btn btn-primary" href="#precos" data-checkout="manualPropedeutica">Comprar manual</a>
+                  <button class="btn btn-link" data-open-sample="propedeutica-manual-p05">Ver sumário</button>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div data-reveal class="kit-strip">
+          <p><strong>Os 4 Manuais Integrais por R$&nbsp;89,90.</strong> Separados, somam R$&nbsp;119,60.</p>
+          <a class="btn btn-outline" href="#precos" data-checkout="kitManuais">Comprar Kit Manuais</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. GUIAS RÁPIDOS -->
+    <section class="section" id="guias" aria-labelledby="guias-title">
+      <div class="container">
+        <header data-reveal class="section-head section-head-row">
+          <div>
+            <h2 id="guias-title">O guia rápido faz lembrar</h2>
+            <p>Dez páginas com o essencial de cada módulo, para revisar antes da aula prática, do estágio ou do plantão. Feito para quem já estudou o módulo.</p>
+          </div>
+          <div class="carousel-nav" data-carousel-nav="guias-track">
+            <button class="icon-btn" data-dir="-1" aria-label="Guia anterior"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
+            <button class="icon-btn" data-dir="1" aria-label="Próximo guia"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
+          </div>
+        </header>
+
+        <div data-reveal class="carousel" id="guias-track" role="region" tabindex="0" aria-label="Guias Rápidos (role para o lado)">
+          <article class="guide-card">
+            <img class="cover" src="assets/img/capas/guia-ecg.jpg" alt="Capa do Guia Rápido Módulo 01: Chegou um ECG. E agora, doc?" width="640" height="906" loading="lazy">
+            <h3>ECG</h3>
+            <p class="desc">O método, os critérios e os padrões que não podem passar.</p>
+            <ul class="mini"><li>Os 11 passos</li><li>Taquicardias e bradicardias</li><li>Supra de ST</li><li>Chame ajuda agora se…</li></ul>
+          </article>
+          <article class="guide-card">
+            <img class="cover" src="assets/img/capas/guia-trauma.jpg" alt="Capa do Guia Rápido Módulo 02: Chegou um trauma grave. E agora, doc?" width="640" height="906" loading="lazy">
+            <h3>Trauma</h3>
+            <p class="desc">A sequência, os números e os alertas da sala de trauma.</p>
+            <ul class="mini"><li>O xABCDE em uma página</li><li>B · o tórax que mata</li><li>C · choque e sangue</li><li>Criança, idoso, gestante</li></ul>
+          </article>
+          <article class="guide-card">
+            <img class="cover" src="assets/img/capas/guia-gasometria.jpg" alt="Capa do Guia Rápido Módulo 03: Chegou uma gasometria. E agora, doc?" width="640" height="906" loading="lazy">
+            <h3>Gasometria</h3>
+            <p class="desc">O método, as contas e os alertas.</p>
+            <ul class="mini"><li>O método em 7 passos</li><li>Compensações esperadas</li><li>Ânion gap e delta</li><li>Oxigenação e quanto O₂</li></ul>
+          </article>
+          <article class="guide-card">
+            <img class="cover" src="assets/img/capas/guia-propedeutica.jpg" alt="Capa do Guia Rápido Módulo 04: Estou rodando na propedêutica. E agora, doc?" width="640" height="906" loading="lazy">
+            <h3>Propedêutica</h3>
+            <p class="desc">As seis estações da visita, frases prontas e sinais de alerta.</p>
+            <ul class="mini"><li>A admissão em uma página</li><li>Exame e sinais vitais</li><li>Seis queixas do internato</li><li>Apresentar e registrar</li></ul>
+          </article>
+        </div>
+
+        <div data-reveal class="kit-strip kit-strip-guides">
+          <div>
+            <p><strong>Kit com os 4 Guias Rápidos: R$&nbsp;24,90.</strong></p>
+            <p class="note">Os guias são material de revisão: não substituem o manual, a formação nem a supervisão clínica.</p>
+          </div>
+          <a class="btn btn-primary" href="#precos" data-checkout="kitGuias">Comprar Kit Guias</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. PREÇOS -->
+    <section class="section section-tint" id="precos" aria-labelledby="precos-title">
+      <div class="container">
+        <header data-reveal class="section-head section-head-center">
+          <h2 id="precos-title">Kits e coleção</h2>
+          <p>Só a revisão, só os manuais, ou tudo junto pelo menor preço.</p>
+        </header>
+
+        <div data-reveal class="pricing">
+          <article class="plan">
+            <h3>Kit Guias Rápidos</h3>
+            <p class="plan-price"><span>R$</span>&nbsp;24,90</p>
+            <p class="plan-sub">4 PDFs · revisão</p>
+            <ul class="checks">
+              <li>Guias Rápidos de ECG, Trauma, Gasometria e Propedêutica</li>
+              <li>10 páginas por módulo</li>
+              <li>Para quem já estudou o conteúdo</li>
+            </ul>
+            <a class="btn btn-outline btn-block" href="#precos" data-checkout="kitGuias">Comprar Kit Guias</a>
+          </article>
+
+          <article class="plan plan-featured" aria-labelledby="plan-colecao">
+            <h3 id="plan-colecao">Coleção Completa</h3>
+            <p class="plan-sub">Nossa oferta principal: 8 PDFs, os 4 manuais e os 4 guias</p>
+            <div class="plan-thumbs" aria-hidden="true">
+              <img src="assets/img/capas/manual-ecg.jpg" alt="" width="640" height="906" loading="lazy">
+              <img src="assets/img/capas/manual-trauma.jpg" alt="" width="640" height="906" loading="lazy">
+              <img src="assets/img/capas/manual-gasometria.jpg" alt="" width="640" height="906" loading="lazy">
+              <img src="assets/img/capas/manual-propedeutica.jpg" alt="" width="640" height="906" loading="lazy">
+              <img src="assets/img/capas/guia-ecg.jpg" alt="" width="640" height="906" loading="lazy">
+              <img src="assets/img/capas/guia-trauma.jpg" alt="" width="640" height="906" loading="lazy">
+              <img src="assets/img/capas/guia-gasometria.jpg" alt="" width="640" height="906" loading="lazy">
+              <img src="assets/img/capas/guia-propedeutica.jpg" alt="" width="640" height="906" loading="lazy">
+            </div>
+            <p class="plan-price"><span>R$</span>&nbsp;99,90</p>
+            <p class="plan-upsell"><s>R$&nbsp;144,50</s> · <strong>economize R$&nbsp;44,60</strong></p>
+            <ul class="checks">
+              <li><strong>4 Manuais Integrais</strong> para estudar: ECG, Trauma, Gasometria e Propedêutica</li>
+              <li><strong>4 Guias Rápidos</strong> para revisar antes da prática</li>
+              <li>412 páginas, com sumário clicável</li>
+              <li>Casos integradores e casos para revisão com gabarito</li>
+            </ul>
+            <a class="btn btn-primary btn-lg btn-block" href="#precos" data-checkout="colecao">Quero a Coleção Completa</a>
+          </article>
+
+          <article class="plan">
+            <h3>Kit Manuais Integrais</h3>
+            <p class="plan-price"><span>R$</span>&nbsp;89,90</p>
+            <p class="plan-sub">4 PDFs · estudo completo</p>
+            <p class="plan-compare">De <s>R$&nbsp;119,60</s> (4 × R$&nbsp;29,90) · <strong class="plan-save">economia de R$&nbsp;29,70</strong></p>
+            <ul class="checks">
+              <li>Manuais de ECG, Trauma, Gasometria e Propedêutica</li>
+              <li>372 páginas no total</li>
+              <li>Não inclui os Guias Rápidos</li>
+            </ul>
+            <a class="btn btn-outline btn-block" href="#precos" data-checkout="kitManuais">Comprar Kit Manuais</a>
+          </article>
+        </div>
+
+        <div data-reveal class="single-buy">
+          <p>Prefere um módulo só? Cada <strong>Manual Integral</strong> sai por <strong>R$&nbsp;29,90</strong>.</p>
+          <div class="single-links">
+            <a class="chip" href="#precos" data-checkout="manualEcg">ECG</a>
+            <a class="chip" href="#precos" data-checkout="manualTrauma">Trauma</a>
+            <a class="chip" href="#precos" data-checkout="manualGasometria">Gasometria</a>
+            <a class="chip" href="#precos" data-checkout="manualPropedeutica">Propedêutica</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. POR DENTRO -->
+    <section class="section" id="por-dentro" aria-labelledby="dentro-title">
+      <div class="container">
+        <header data-reveal class="section-head">
+          <h2 id="dentro-title">Por dentro dos materiais</h2>
+          <p>Amostras reais: casos clínicos para você resolver, gabaritos comentados e páginas de dicas, exatamente como aparecem nos manuais e guias. Toque para ampliar.</p>
+        </header>
+        <div data-reveal class="filters" role="group" aria-label="Filtrar amostras">
+          <button class="filter is-active" data-filter="all" aria-pressed="true">Todos</button>
+          <button class="filter" data-filter="casos" aria-pressed="false">Casos e gabaritos</button>
+          <button class="filter" data-filter="ecg" aria-pressed="false">ECG</button>
+          <button class="filter" data-filter="trauma" aria-pressed="false">Trauma</button>
+          <button class="filter" data-filter="gasometria" aria-pressed="false">Gasometria</button>
+          <button class="filter" data-filter="propedeutica" aria-pressed="false">Propedêutica</button>
+        </div>
+        <ul data-reveal class="gallery" id="gallery">
+          <li data-module="ecg casos"><button data-sample="ecg-manual-p82" data-caption="ECG · Manual Integral · p. 82: Caso integrador 1: Dor no peito, ECG “sem supra”. Posso esperar a troponina?"><img src="assets/img/amostras/ecg-manual-p82-thumb.jpg" alt="Caso integrador 1 do Manual de ECG, com traçado real e perguntas para o estudante" width="420" height="595" loading="lazy"><em class="kind">Caso clínico</em><span>ECG · Manual · p. 82</span></button></li>
+          <li data-module="ecg casos"><button data-sample="ecg-manual-p83" data-caption="ECG · Manual Integral · p. 83: Resolução do caso 1: raciocínio, resposta e próximo passo"><img src="assets/img/amostras/ecg-manual-p83-thumb.jpg" alt="Resolução comentada do caso integrador 1 do Manual de ECG" width="420" height="595" loading="lazy"><em class="kind">Resolução</em><span>ECG · Manual · p. 83</span></button></li>
+          <li data-module="trauma casos"><button data-sample="trauma-manual-p72" data-caption="Trauma · Manual Integral · p. 72: Caso integrador 1: Motociclista, coxa sangrando, pele fria"><img src="assets/img/amostras/trauma-manual-p72-thumb.jpg" alt="Caso integrador 1 do Manual de Trauma, com sinais vitais e perguntas" width="420" height="595" loading="lazy"><em class="kind">Caso clínico</em><span>Trauma · Manual · p. 72</span></button></li>
+          <li data-module="trauma casos"><button data-sample="trauma-manual-p73" data-caption="Trauma · Manual Integral · p. 73: Resolução do caso 1: xABCDE, raciocínio, resposta e pegadinha"><img src="assets/img/amostras/trauma-manual-p73-thumb.jpg" alt="Resolução comentada do caso integrador 1 do Manual de Trauma" width="420" height="595" loading="lazy"><em class="kind">Resolução</em><span>Trauma · Manual · p. 73</span></button></li>
+          <li data-module="gasometria casos"><button data-sample="gasometria-manual-p84" data-caption="Gasometria · Manual Integral · p. 84: Casos para revisão: qual é sua primeira atitude?"><img src="assets/img/amostras/gasometria-manual-p84-thumb.jpg" alt="Seis casos de revisão do Manual de Gasometria" width="420" height="595" loading="lazy"><em class="kind">Questões</em><span>Gasometria · Manual · p. 84</span></button></li>
+          <li data-module="gasometria casos"><button data-sample="gasometria-manual-p85" data-caption="Gasometria · Manual Integral · p. 85: Gabarito comentado dos casos para revisão"><img src="assets/img/amostras/gasometria-manual-p85-thumb.jpg" alt="Gabarito comentado dos casos de revisão do Manual de Gasometria" width="420" height="595" loading="lazy"><em class="kind">Gabarito comentado</em><span>Gasometria · Manual · p. 85</span></button></li>
+          <li data-module="propedeutica casos"><button data-sample="propedeutica-manual-p81" data-caption="Propedêutica · Manual Integral · p. 81: Caso integrador 1: “Minha mãe não está bem”"><img src="assets/img/amostras/propedeutica-manual-p81-thumb.jpg" alt="Caso integrador 1 do Manual de Propedêutica, com rascunho para preencher" width="420" height="595" loading="lazy"><em class="kind">Caso clínico</em><span>Propedêutica · Manual · p. 81</span></button></li>
+          <li data-module="propedeutica casos"><button data-sample="propedeutica-manual-p82" data-caption="Propedêutica · Manual Integral · p. 82: Resolução do caso 1: lista de problemas e como apresentar"><img src="assets/img/amostras/propedeutica-manual-p82-thumb.jpg" alt="Resolução comentada do caso integrador 1 do Manual de Propedêutica" width="420" height="595" loading="lazy"><em class="kind">Resolução</em><span>Propedêutica · Manual · p. 82</span></button></li>
+          <li data-module="ecg"><button data-sample="ecg-manual-p16" data-caption="ECG · Manual Integral · p. 16: Isto é normal? (traçado real anotado)"><img src="assets/img/amostras/ecg-manual-p16-thumb.jpg" alt="Página 16 do Manual de ECG: capítulo Isto é normal?" width="420" height="595" loading="lazy"><em class="kind">Capítulo</em><span>ECG · Manual · p. 16</span></button></li>
+          <li data-module="trauma casos"><button data-sample="trauma-manual-p25" data-caption="Trauma · Manual Integral · p. 25: Qual é sua primeira atitude? e mini-caso com resposta"><img src="assets/img/amostras/trauma-manual-p25-thumb.jpg" alt="Página 25 do Manual de Trauma: questão de primeira atitude e mini-caso com resposta" width="420" height="595" loading="lazy"><em class="kind">Mini-caso</em><span>Trauma · Manual · p. 25</span></button></li>
+          <li data-module="ecg casos" class="is-extra"><button data-sample="ecg-manual-p96" data-caption="ECG · Manual Integral · p. 96: Casos para revisão: só o traçado e a pergunta"><img src="assets/img/amostras/ecg-manual-p96-thumb.jpg" alt="Casos de revisão do Manual de ECG com traçados reais" width="420" height="595" loading="lazy"><em class="kind">Questões</em><span>ECG · Manual · p. 96</span></button></li>
+          <li data-module="ecg casos" class="is-extra"><button data-sample="ecg-manual-p98" data-caption="ECG · Manual Integral · p. 98: Gabarito comentado dos casos para revisão"><img src="assets/img/amostras/ecg-manual-p98-thumb.jpg" alt="Gabarito comentado dos casos de revisão do Manual de ECG" width="420" height="595" loading="lazy"><em class="kind">Gabarito comentado</em><span>ECG · Manual · p. 98</span></button></li>
+          <li data-module="trauma casos" class="is-extra"><button data-sample="trauma-manual-p84" data-caption="Trauma · Manual Integral · p. 84: Casos para revisão: qual é sua primeira atitude?"><img src="assets/img/amostras/trauma-manual-p84-thumb.jpg" alt="Seis casos de revisão do Manual de Trauma" width="420" height="595" loading="lazy"><em class="kind">Questões</em><span>Trauma · Manual · p. 84</span></button></li>
+          <li data-module="trauma casos" class="is-extra"><button data-sample="trauma-manual-p85" data-caption="Trauma · Manual Integral · p. 85: Gabarito comentado dos casos para revisão"><img src="assets/img/amostras/trauma-manual-p85-thumb.jpg" alt="Gabarito comentado dos casos de revisão do Manual de Trauma" width="420" height="595" loading="lazy"><em class="kind">Gabarito comentado</em><span>Trauma · Manual · p. 85</span></button></li>
+          <li data-module="gasometria casos" class="is-extra"><button data-sample="gasometria-manual-p72" data-caption="Gasometria · Manual Integral · p. 72: Caso integrador 1: Idoso com diarreia: precisava de arterial?"><img src="assets/img/amostras/gasometria-manual-p72-thumb.jpg" alt="Caso integrador 1 do Manual de Gasometria, com gasometria e rascunho para preencher" width="420" height="595" loading="lazy"><em class="kind">Caso clínico</em><span>Gasometria · Manual · p. 72</span></button></li>
+          <li data-module="gasometria casos" class="is-extra"><button data-sample="gasometria-manual-p73" data-caption="Gasometria · Manual Integral · p. 73: Resolução do caso 1: os sete passos, laudo em uma frase e pegadinha"><img src="assets/img/amostras/gasometria-manual-p73-thumb.jpg" alt="Resolução comentada do caso integrador 1 do Manual de Gasometria" width="420" height="595" loading="lazy"><em class="kind">Resolução</em><span>Gasometria · Manual · p. 73</span></button></li>
+          <li data-module="propedeutica casos" class="is-extra"><button data-sample="propedeutica-manual-p93" data-caption="Propedêutica · Manual Integral · p. 93: Casos para revisão: qual é sua primeira atitude?"><img src="assets/img/amostras/propedeutica-manual-p93-thumb.jpg" alt="Seis casos de revisão do Manual de Propedêutica" width="420" height="595" loading="lazy"><em class="kind">Questões</em><span>Propedêutica · Manual · p. 93</span></button></li>
+          <li data-module="propedeutica casos" class="is-extra"><button data-sample="propedeutica-manual-p94" data-caption="Propedêutica · Manual Integral · p. 94: Gabarito comentado dos casos para revisão"><img src="assets/img/amostras/propedeutica-manual-p94-thumb.jpg" alt="Gabarito comentado dos casos de revisão do Manual de Propedêutica" width="420" height="595" loading="lazy"><em class="kind">Gabarito comentado</em><span>Propedêutica · Manual · p. 94</span></button></li>
+          <li data-module="gasometria" class="is-extra"><button data-sample="gasometria-manual-p24" data-caption="Gasometria · Manual Integral · p. 24: A PaCO₂ fez a parte dela? Fórmulas com exemplos, alertas e treino relâmpago"><img src="assets/img/amostras/gasometria-manual-p24-thumb.jpg" alt="Página 24 do Manual de Gasometria: compensação com exemplos e treino" width="420" height="595" loading="lazy"><em class="kind">Dicas e exemplos</em><span>Gasometria · Manual · p. 24</span></button></li>
+          <li data-module="propedeutica" class="is-extra"><button data-sample="propedeutica-manual-p21" data-caption="Propedêutica · Manual Integral · p. 21: O método aplicado: quatro hipóteses, poucas perguntas"><img src="assets/img/amostras/propedeutica-manual-p21-thumb.jpg" alt="Página 21 do Manual de Propedêutica: o método aplicado a um caso" width="420" height="595" loading="lazy"><em class="kind">Exemplo prático</em><span>Propedêutica · Manual · p. 21</span></button></li>
+          <li data-module="gasometria casos" class="is-extra"><button data-sample="gasometria-manual-p21" data-caption="Gasometria · Manual Integral · p. 21: Passo 1 · Acidemia ou alcalemia? (com questão e resposta)"><img src="assets/img/amostras/gasometria-manual-p21-thumb.jpg" alt="Página 21 do Manual de Gasometria: Passo 1, acidemia ou alcalemia?" width="420" height="595" loading="lazy"><em class="kind">Mini-caso</em><span>Gasometria · Manual · p. 21</span></button></li>
+          <li data-module="trauma" class="is-extra"><button data-sample="trauma-manual-p17" data-caption="Trauma · Manual Integral · p. 17: x · Está sangrando até morrer?"><img src="assets/img/amostras/trauma-manual-p17-thumb.jpg" alt="Página 17 do Manual de Trauma: x, está sangrando até morrer?" width="420" height="595" loading="lazy"><em class="kind">Capítulo</em><span>Trauma · Manual · p. 17</span></button></li>
+          <li data-module="propedeutica" class="is-extra"><button data-sample="propedeutica-manual-p69" data-caption="Propedêutica · Manual Integral · p. 69: Como apresentar um caso novo?"><img src="assets/img/amostras/propedeutica-manual-p69-thumb.jpg" alt="Página 69 do Manual de Propedêutica: como apresentar um caso novo?" width="420" height="595" loading="lazy"><em class="kind">Capítulo</em><span>Propedêutica · Manual · p. 69</span></button></li>
+          <li data-module="ecg" class="is-extra"><button data-sample="ecg-guia-p04" data-caption="ECG · Guia Rápido · p. 4: Taquicardias"><img src="assets/img/amostras/ecg-guia-p04-thumb.jpg" alt="Página 4 do Guia Rápido de ECG: taquicardias" width="420" height="595" loading="lazy"><em class="kind">Guia rápido</em><span>ECG · Guia · p. 4</span></button></li>
+          <li data-module="trauma" class="is-extra"><button data-sample="trauma-guia-p05" data-caption="Trauma · Guia Rápido · p. 5: B · O tórax está matando?"><img src="assets/img/amostras/trauma-guia-p05-thumb.jpg" alt="Página 5 do Guia Rápido de Trauma: o tórax está matando?" width="420" height="595" loading="lazy"><em class="kind">Guia rápido</em><span>Trauma · Guia · p. 5</span></button></li>
+          <li data-module="ecg" class="is-extra"><button data-sample="ecg-manual-p05" data-caption="ECG · Manual Integral · p. 5: Sumário"><img src="assets/img/amostras/ecg-manual-p05-thumb.jpg" alt="Sumário do Manual de ECG" width="420" height="595" loading="lazy"><em class="kind">Sumário</em><span>ECG · Sumário</span></button></li>
+          <li data-module="trauma" class="is-extra"><button data-sample="trauma-manual-p05" data-caption="Trauma · Manual Integral · p. 5: Sumário"><img src="assets/img/amostras/trauma-manual-p05-thumb.jpg" alt="Sumário do Manual de Trauma" width="420" height="595" loading="lazy"><em class="kind">Sumário</em><span>Trauma · Sumário</span></button></li>
+          <li data-module="gasometria" class="is-extra"><button data-sample="gasometria-manual-p05" data-caption="Gasometria · Manual Integral · p. 5: Sumário"><img src="assets/img/amostras/gasometria-manual-p05-thumb.jpg" alt="Sumário do Manual de Gasometria" width="420" height="595" loading="lazy"><em class="kind">Sumário</em><span>Gasometria · Sumário</span></button></li>
+          <li data-module="propedeutica" class="is-extra"><button data-sample="propedeutica-manual-p05" data-caption="Propedêutica · Manual Integral · p. 5: Sumário"><img src="assets/img/amostras/propedeutica-manual-p05-thumb.jpg" alt="Sumário do Manual de Propedêutica" width="420" height="595" loading="lazy"><em class="kind">Sumário</em><span>Propedêutica · Sumário</span></button></li>
+        </ul>
+        <div class="gallery-more">
+          <button class="btn btn-outline" id="gallery-more" aria-controls="gallery" aria-expanded="false">Ver mais amostras (19)</button>
+          <p class="gallery-note">Páginas isoladas, apenas para demonstração. Os PDFs completos são liberados somente após a compra.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. COMO FUNCIONA -->
+    <section class="section section-tint" id="como-funciona" aria-labelledby="como-title">
+      <div class="container">
+        <header data-reveal class="section-head section-head-center">
+          <p class="eyebrow">Compra simples</p>
+          <h2 id="como-title">Como funciona</h2>
+        </header>
+        <ol data-reveal class="steps">
+          <li><span class="step-n">1</span><h3>Escolha</h3><p>A Coleção Completa, um kit ou um Manual Integral avulso.</p></li>
+          <li><span class="step-n">2</span><h3>Pague na <span translate="no">Kiwify</span></h3><p>O botão de compra leva ao checkout oficial da <span translate="no">Kiwify</span>, onde aparecem as formas de pagamento.</p></li>
+          <li><span class="step-n">3</span><h3>Receba o acesso</h3><p>Após a confirmação, a <span translate="no">Kiwify</span> libera os arquivos e envia as instruções para o e-mail da compra.</p></li>
+          <li><span class="step-n">4</span><h3>Estude e consulte</h3><p>PDFs com navegação por toque, no celular, tablet ou computador.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 9. FAQ -->
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="container container-narrow">
+        <header data-reveal class="section-head section-head-center">
+          <h2 id="faq-title">Perguntas frequentes</h2>
+        </header>
+        <div data-reveal class="faq">
+          <details>
+            <summary>Para quem são os materiais?</summary>
+            <p>Para estudantes de Medicina que já estudaram a teoria e querem saber o que fazer quando o ECG, a gasometria, o trauma ou o paciente da enfermaria aparecem na frente: em aulas práticas, estágios e internato.</p>
+          </details>
+          <details>
+            <summary>Qual a diferença entre Manual Integral e Guia Rápido?</summary>
+            <p>O <strong>Manual Integral</strong> (87 a 100 páginas) ensina: método, capítulos por pergunta, exemplos reais, casos integradores e casos para revisão com gabarito. O <strong>Guia Rápido</strong> (10 páginas) faz lembrar: é a revisão do essencial, feita para quem já estudou o módulo.</p>
+          </details>
+          <details>
+            <summary>Os guias rápidos substituem o manual ou a supervisão clínica?</summary>
+            <p>Não. Os guias são material de revisão. Nenhum dos materiais substitui a formação médica, a supervisão do preceptor ou os protocolos da sua instituição.</p>
+          </details>
+          <details>
+            <summary>Posso comprar só um módulo?</summary>
+            <p>Sim: cada Manual Integral pode ser comprado separadamente por R$&nbsp;29,90. Os Guias Rápidos estão disponíveis no Kit Guias Rápidos (R$&nbsp;24,90) ou na Coleção Completa (R$&nbsp;99,90).</p>
+          </details>
+          <details>
+            <summary>Em que formato recebo os materiais?</summary>
+            <p>Em PDF, com sumário clicável e navegação por toque. Você pode ler no celular, no tablet ou no computador.</p>
+          </details>
+          <details>
+            <summary>Como recebo o acesso depois de pagar?</summary>
+            <p>A compra é feita pela <span translate="no">Kiwify</span>. Após a confirmação do pagamento, a <span translate="no">Kiwify</span> libera os arquivos e envia as instruções de acesso para o e-mail informado no checkout.</p>
+          </details>
+          <details>
+            <summary>Quais as formas de pagamento?</summary>
+            <p>O checkout da <span translate="no">Kiwify</span> disponibiliza pagamento por cartão de crédito e Pix. As opções aparecem no momento da compra.</p>
+          </details>
+          <details>
+            <summary>O conteúdo está atualizado?</summary>
+            <p>Os manuais são da edição 2026, com última atualização bibliográfica em outubro/2026. Cada manual traz as suas referências; por exemplo, o de Trauma tem como base o ATLS, 11ª edição (2025).</p>
+          </details>
+          <details>
+            <summary>Ainda tenho dúvidas. Como falo com vocês?</summary>
+            <p>Pelo WhatsApp: <a href="#faq" data-whatsapp>enviar mensagem</a>.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. CTA FINAL -->
+    <section class="final-cta" aria-labelledby="final-title">
+      <div data-reveal class="container final-inner">
+        <div>
+          <h2 id="final-title">Leve o método para a prática.</h2>
+          <p>Você aprendeu a teoria. Os 4 Manuais Integrais e os 4 Guias Rápidos em uma só compra: R$&nbsp;99,90.</p>
+        </div>
+        <div class="final-actions">
+          <a class="btn btn-light btn-lg" href="#precos" data-checkout="colecao"><span><span class="hide-sm">Quero a </span>Coleção Completa</span><span class="btn-price">R$&nbsp;99,90</span></a>
+          <a class="final-alt" href="#precos">Ver todos os kits</a>
+          <a class="final-alt" href="#faq" data-whatsapp>Dúvidas? Fale conosco no WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 11. RODAPÉ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/img/logo.png" alt="E agora, doc?" translate="no" width="480" height="200" loading="lazy">
+        <p>Material educacional para estudantes de Medicina.</p>
+      </div>
+      <nav aria-label="Rodapé">
+        <ul>
+          <li><a href="#manuais">Manuais Integrais</a></li>
+          <li><a href="#guias">Guias Rápidos</a></li>
+          <li><a href="#precos">Preços</a></li>
+          <li><a href="#faq">Perguntas frequentes</a></li>
+          <li><a href="#faq" data-whatsapp>WhatsApp</a></li>
+          <li><a href="https://instagram.com/eagora.doc?rpxt=MTkxd2R2Y3FjZHFsNQ%3D%3D&amp;utm_source=qr" target="_blank" rel="noopener noreferrer">Instagram @eagora.doc</a></li>
+        </ul>
+      </nav>
+      <p class="disclaimer">Conteúdo educacional. Não substitui a formação médica, a supervisão clínica, os protocolos institucionais nem a avaliação de um profissional habilitado.</p>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year">2026</span> <span translate="no">E agora, doc?</span> Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="#faq" data-whatsapp data-wa-float aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.7a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.2-.2-.5-.3z"/></svg>
+  </a>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Amostra ampliada">
+    <div class="lb-inner">
+      <button class="lb-close" data-lb="close" aria-label="Fechar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+      <figure>
+        <img id="lb-img" alt="" width="1000" height="1415">
+        <figcaption id="lb-cap"></figcaption>
+      </figure>
+      <button class="lb-nav lb-prev" data-lb="-1" aria-label="Amostra anterior"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
+      <button class="lb-nav lb-next" data-lb="1" aria-label="Próxima amostra"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="alert" hidden></div>
+</body>
+</html>

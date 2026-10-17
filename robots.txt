@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eagoradoc.netlify.app/sitemap.xml
