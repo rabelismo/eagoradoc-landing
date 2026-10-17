@@ -309,6 +309,9 @@ button { font: inherit; color: inherit; cursor: pointer; }
 /* ---------- movimento ---------- */
 @keyframes rise { to { opacity: 1; transform: none; } }
 @keyframes deal { from { opacity: 0; transform: translate(var(--from-x, 0), var(--from-y, 0)) rotate(0deg); } }
+@keyframes fade-in { from { opacity: 0; } }
+.reveal-ready [data-reveal]:not(.is-in) > * { opacity: 0; }
+.reveal-ready [data-reveal] > * { transition: opacity 700ms var(--ease-out); transition-delay: calc(var(--d, 0) * 75ms); }
 @media (prefers-reduced-motion: no-preference) {
   .js [data-rise] { opacity: 0; transform: translateY(24px); animation: rise var(--t-reveal) var(--ease-out) forwards; animation-delay: calc(var(--i, 0) * 90ms + 80ms); }
   .js .cover-stack .c { animation: deal 1000ms var(--ease-out) both; }
@@ -387,5 +390,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  *, *::before, *::after { transition: none !important; animation: none !important; }
+  *, *::before, *::after { transition-property: opacity, color, background-color, border-color, text-decoration-color !important; }
+  .js [data-rise] { animation: fade-in 600ms ease both; animation-delay: calc(var(--i, 0) * 90ms + 80ms); }
+  .js .cover-stack .c { animation: fade-in 700ms ease 200ms both; }
 }

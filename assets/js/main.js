@@ -227,7 +227,7 @@
 
   // ---- entrada das seções ----
   var revealBlocks = document.querySelectorAll("[data-reveal]");
-  if ("IntersectionObserver" in window && !reduceMotion.matches) {
+  if ("IntersectionObserver" in window) {
     revealBlocks.forEach(function (block) {
       Array.prototype.forEach.call(block.children, function (child, i) {
         child.style.setProperty("--d", String(Math.min(i, 8)));
